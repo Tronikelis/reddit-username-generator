@@ -1,0 +1,24 @@
+{
+    "name": "reddit-username-generator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon --watch src --exec \"tsc && node build/index.js generate --seconds 30\"",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "@types/yargs": "^17.0.10",
+        "nodemon": "^2.0.16",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "axios": "^0.27.2",
+        "chalk": "~4.1.2",
+        "yargs": "^17.5.1"
+    }
+}
